@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*header*/
+header{
+	text-align: center;	
+}
+
+header h1{
+	/* color: white; */
+	color: #f25252;
+	font-size: 4em;	
+}
+
+header p{
+	/* color:#66abce; */
+	color: #F2B2AC;
+	font-size: 2em;	
+}
+
+nav{
+    display: flex;
+	flex-direction: row; 
+	margin-left: 20px;
+	justify-content: center;
+}
+
+nav a{
+	margin: auto;
+	margin-top: 40px;
+	color: rgb(233, 233, 233);
+	text-decoration: none;
+}
+
+.contenedor{
+	width: 100%;
+	/* background-color: #00547e;	 */
+	background-color: #302E59;
+	padding: 15px 0;
+}
+
+
+/*body*/
+body{
+	font-size: 16 px;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	margin: 40px 20px;
+	justify-content: center;
+}
+
+section h1{
+	color:rgb(211, 154, 149);
+	font-size: 2em;	
+	text-align: center;
+	margin: 20px 0px;
+}
+
+section p{
+	color: rgb(112, 112, 112);
+	font-size: 1em;	
+	text-align: left;
+	margin: 20px;
+}
+
+.novelty{
+	margin: auto;	
+	width: 45%;
+	align-content: center;	
+	vertical-align: top;
+}
+
+.novelty_content{
+	display: flex;
+	flex-direction: row;
+	margin: auto;	
+	margin-bottom: 20px;
+	align-content: center;
+}
+
+.novelty_image{
+	margin: auto;		
+	width: 45%;	
+}
+
+.section{
+	margin: auto;
+	width: 100%;
+	display: block;
+}
+
+
+/*footer*/
+footer{
+	display: flex;
+	flex-direction: row; 
+	margin: auto;
+	height: 100px;
+	justify-content: center;
+	background-color: #302E59;		
+}
+
+footer div{
+	margin: auto;	
+	color: rgb(233, 233, 233);	
+	padding: 10px;
+	width: 20%;	
+}
+
+footer a{
+	text-decoration: none;
+	color: rgb(233, 233, 233);
+}
+
+.align_right{
+	text-align: right;
+}
+
+.icon_collection{
+	display: flex;
+	flex-direction: row; 
+	margin: auto;
+	justify-content: center;	
+}
+
+.icon{
+	margin: 0px 5px;	
+}
+
+/* Colores usados
+párrafo color texto => rgb(112, 112, 112);
+h1 color texto => rgb(211, 154, 149);
+header/footer background =>  #302E59;
+header titulo => #f25252;
+header subtitulo => #F2B2AC; 
+*/
